@@ -128,4 +128,4 @@ const showDetail = (data) => {
     `;
 } 
 
-// loadPhones()
+loadPhones('apple')
