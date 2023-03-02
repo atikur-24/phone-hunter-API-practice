@@ -18,7 +18,7 @@
                 <div class="container">
                   <div class="d-flex" role="search">
                     <input id="search-field" class="form-control me-2" type="search" placeholder="Search Your Phone" aria-label="Search">
-                    <button id="search-btn" class="btn btn-info fw-medium" type="submit">Search</button>
+                    <button id="search-btn" class="btn btn-primary fw-medium" type="submit">Search</button>
                   </div>
                 </div>
               </nav>
@@ -45,6 +45,25 @@
                   <span class="visually-hidden">Loading...</span>
                 </div>
               </div>
+        </section>
+
+        <!-- modal -->
+        <section>
+          <div class="modal fade" id="phoneDetail" tabindex="-1" aria-labelledby="phoneDetailLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="phoneDetailLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="phone-detail" class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
     </main>
     <!-- script files -->
